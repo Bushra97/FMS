@@ -1,0 +1,86 @@
+<!-- header -->
+<nav class="navbar is-black">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="assets/img/newlogo.PNG" alt="BuyInBudget">
+      </a>
+    </div>
+  
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          BuyInBudget Now!
+        </a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="field is-grouped">
+            <p class="control">
+              <a class="button is-dark is-focused" href="">
+                <span>
+                  Register
+                </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- body -->
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Login</h1>
+        </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+        <form (ngSubmit)="submitForm()" #loginForm="ngForm">
+            <div class="field">
+                <label class="label">Username</label>
+                <input type="text" name="userName" class="input" autocomplete="off" [(ngModel)]="username" #nameInput="ngModel" required> 
+           
+                <!-- validation -->
+                <div class="help is-error" *ngIf="nameInput.invalid && nameInput.touched">
+                    Your name is required.
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Password</label>
+                <input type="password" name="password" class="input" [(ngModel)]="password" #passwordInput = "ngModel" required>
+
+                 <!-- validation -->
+                 <div class="help is-error" *ngIf="passwordInput.invalid && passwordInput.touched">
+                    Your password is required.
+                </div>
+            </div>
+
+            <div class="field is-grouped is-grouped-right">
+                <p class="control">
+                  <button class="button is-primary" [disabled]="loginForm.invalid">
+                    Submit
+                </button>
+                </p>
+                <p class="control">
+                  <a class="button is-light">
+                    Forgot Password
+                  </a>
+                </p>
+              </div>
+        </form>
+        <br><br><br>
+        <p>New User? <a href="www.google.com">Register Here</a></p>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container content has-text-centered">
+      <p>Made with 🖤 by B.L.N.P. from LTI </p>
+    </div>
+  </footer>
