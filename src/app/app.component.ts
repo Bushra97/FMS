@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 template:`
 <app-home></app-home>
 <app-login></app-login>
+<app-register></app-register>
 
 
 
