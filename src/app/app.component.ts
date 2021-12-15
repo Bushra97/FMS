@@ -13,6 +13,7 @@ template:`
 <app-product></app-product>
 <app-product-info></app-product-info>
 <app-verify-user></app-verify-user>
+<app-admin></app-admin>
 `
 })
 
