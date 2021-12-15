@@ -12,6 +12,7 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
 import { ProductComponent } from './product/product.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
 import { VerifyUserComponent } from './verify-user/verify-user.component';
+import { AdminComponent } from './admin/admin.component';
 
 // import {AppRoutingModule} from './app-routing.module';
 
@@ -25,7 +26,8 @@ import { VerifyUserComponent } from './verify-user/verify-user.component';
     ChangePasswordComponent,
     ProductComponent,
     ProductInfoComponent,
-    VerifyUserComponent
+    VerifyUserComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
