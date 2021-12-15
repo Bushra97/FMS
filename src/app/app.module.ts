@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { ProductComponent } from './product/product.component';
+import { ProductInfoComponent } from './product-info/product-info.component';
 
 // import {AppRoutingModule} from './app-routing.module';
 
@@ -19,7 +21,9 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     LoginComponent,
     RegisterComponent,
     ForgotPasswordComponent,
-    ChangePasswordComponent
+    ChangePasswordComponent,
+    ProductComponent,
+    ProductInfoComponent
   ],
   imports: [
     BrowserModule,

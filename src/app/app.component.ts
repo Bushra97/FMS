@@ -10,6 +10,7 @@ template:`
 <app-register></app-register>
 <app-forgot-password></app-forgot-password>
 <app-change-password></app-change-password>
+<app-product></app-product>
 `
 })
 
