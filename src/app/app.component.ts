@@ -15,7 +15,7 @@ template:`
 <app-verify-user></app-verify-user>
 <app-admin></app-admin>
 `
-})
+})================dsavdasdjsahjsda
 
 export class AppComponent {
   title = 'cwh-todo-list';
