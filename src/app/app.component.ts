@@ -11,6 +11,8 @@ template:`
 <app-forgot-password></app-forgot-password>
 <app-change-password></app-change-password>
 <app-product></app-product>
+<app-product-info></app-product-info>
+<app-verify-user></app-verify-user>
 `
 })
 
