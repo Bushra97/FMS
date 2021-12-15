@@ -9,12 +9,10 @@ template:`
 <app-login></app-login>
 <app-register></app-register>
 <app-forgot-password></app-forgot-password>
-
-
-
+<app-change-password></app-change-password>
 `
- 
 })
+
 export class AppComponent {
   title = 'cwh-todo-list';
 }
