@@ -8,6 +8,7 @@ template:`
 <app-home></app-home>
 <app-login></app-login>
 <app-register></app-register>
+<app-forgot-password></app-forgot-password>
 
 
 
